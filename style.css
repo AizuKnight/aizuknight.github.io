@@ -1,18 +1,15 @@
 body {
     background-color: azure;
+    margin: 30 200;
+    font-family: Courier, monospace;
 }
 
 h1 {
-    height: 700;
-    margin: 300 100 300;
+    margin: 30 100 30;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100;
+    font-size: 80;
 }
 
-p {
-    height: 100;
-    margin: 50 100 50;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.wholelist {
+    font-size: 30;
 }
