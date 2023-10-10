@@ -3,7 +3,17 @@ body {
     font-family: Courier, monospace;
 }
 
-header.page {
+a:link {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
     color:crimson;
     background-color: rgb(39, 39, 39);
     font-style: oblique;
@@ -19,7 +29,7 @@ article {
     font-family: Courier, monospace;
 }
 
-header.article {
+.article > header {
     font-size: 40;
 }
 
