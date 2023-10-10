@@ -1,15 +1,28 @@
 body {
-    background-color: azure;
-    margin: 30 200;
+    background-color: rgb(100, 100, 100);
     font-family: Courier, monospace;
 }
 
-h1 {
-    margin: 30 100 30;
-    text-align: center;
-    font-size: 80;
+header.page {
+    color:crimson;
+    background-color: rgb(39, 39, 39);
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 50;
+    padding: 20 50;
+}
+
+article {
+    background-color: rgb(128, 128, 128);
+    margin: 30 450;
+    padding: 50;
+    font-family: Courier, monospace;
+}
+
+header.article {
+    font-size: 40;
 }
 
 .wholelist {
-    font-size: 30;
+    font-size: 25;
 }
