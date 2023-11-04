@@ -18,19 +18,19 @@
                 About A Behavior of ESP32
             </header>
             <p>
-                
+                When I retreive local time with ESP32, I sometimes get false as return value. It means the year value in ESP32 is less than 2016.
             </p>
             <ol>
                 <li>
-                    -
+                    RTC issue
                     <p>
-                        --
+                        I tried to print tm structure out. Then the problem was fixed. I don't know why.
                     </p>
                 </li>
                 <li>
-                    -
+                    Something seems to have to done to get local time properly.
                     <p>
-                        --
+                        I tried built-in sample clock program named SimpleClock. Then it worked. And then, I uploaded my program again and it worked. Fine. Good. Alright.
                     </p>
                 </li>
             </ol>
